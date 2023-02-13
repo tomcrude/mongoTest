@@ -1,0 +1,36 @@
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name": "jisdfsdewrtwji",
+    "age": 234,
+    "verification": false
+}
+
+###
+
+GET http://localhost:3000/user HTTP/1.1
+
+###
+GET http://localhost:3000/user/jorge HTTP/1.1
+
+###
+
+PUT http://localhost:3000/user/63ea41d8a141c5c1aa54f25a
+Content-Type: application/json
+
+{
+    "name": "conchis",
+    "age": 2234,
+    "verification": true
+}
+
+
+###
+
+DELETE http://localhost:3000/user/63ea45211ca4e058fc943073 HTTP/1.1
+Content-Type: application/json
+
+
